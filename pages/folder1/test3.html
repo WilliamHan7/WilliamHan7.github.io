@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>一、Flutter 目录结构介绍 | WilliamHan7首页</title>
+    <meta name="description" content="WilliamHan7的Flutter记录">
+    <link rel="icon" href="/egg.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.171360c9.css" as="style"><link rel="preload" href="/assets/js/app.931699e2.js" as="script"><link rel="preload" href="/assets/js/2.980b837c.js" as="script"><link rel="preload" href="/assets/js/10.49ba6655.js" as="script"><link rel="prefetch" href="/assets/js/11.e9c98572.js"><link rel="prefetch" href="/assets/js/12.bc188df4.js"><link rel="prefetch" href="/assets/js/13.bb6c3a8d.js"><link rel="prefetch" href="/assets/js/14.53017690.js"><link rel="prefetch" href="/assets/js/15.36dd618d.js"><link rel="prefetch" href="/assets/js/16.53d33aea.js"><link rel="prefetch" href="/assets/js/17.c0ec6ac5.js"><link rel="prefetch" href="/assets/js/18.4a26d176.js"><link rel="prefetch" href="/assets/js/3.fe3e3fe1.js"><link rel="prefetch" href="/assets/js/4.03627411.js"><link rel="prefetch" href="/assets/js/5.dc84751a.js"><link rel="prefetch" href="/assets/js/6.3849b893.js"><link rel="prefetch" href="/assets/js/7.a4e8856f.js"><link rel="prefetch" href="/assets/js/8.0c9c93d3.js"><link rel="prefetch" href="/assets/js/9.629fba31.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.171360c9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/egg.png" alt="WilliamHan7首页" class="logo"> <span class="site-name can-hide">WilliamHan7首页</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/pages/folder1/test1.html" class="nav-link">Flutter教程</a></div><div class="nav-item"><a href="https://github.com/WilliamHan7" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/pages/folder1/test1.html" class="nav-link">Flutter教程</a></div><div class="nav-item"><a href="https://github.com/WilliamHan7" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Flutter</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/folder1/test1.html" class="sidebar-link">入门简介</a></li><li><a href="/pages/folder1/test2.html" class="sidebar-link">Flutter开发环境搭建Windows版</a></li><li><a href="/pages/folder1/test3.html" class="active sidebar-link">Flutter目录结构介绍及常见组件介绍</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pages/folder1/test3.html#一、flutter-目录结构介绍" class="sidebar-link">一、Flutter 目录结构介绍</a></li><li class="sidebar-sub-header"><a href="/pages/folder1/test3.html#二、flutter-入口文件、入口方法" class="sidebar-link">二、Flutter 入口文件、入口方法</a></li><li class="sidebar-sub-header"><a href="/pages/folder1/test3.html#三、flutter第一个demo-center组件的使用" class="sidebar-link">三、Flutter第一个Demo Center组件的使用</a></li><li class="sidebar-sub-header"><a href="/pages/folder1/test3.html#四、flutter把内容单独抽离成一个组件" class="sidebar-link">四、Flutter把内容单独抽离成一个组件</a></li><li class="sidebar-sub-header"><a href="/pages/folder1/test3.html#五、给text组件增加一些装饰" class="sidebar-link">五、给Text组件增加一些装饰</a></li><li class="sidebar-sub-header"><a href="/pages/folder1/test3.html#六、使用materialapp-和-scaffold-两个组件装饰app" class="sidebar-link">六、使用MaterialApp 和 Scaffold 两个组件装饰App</a></li></ul></li><li><a href="/pages/folder1/test4.html" class="sidebar-link">Flutter中的按钮组件及自定义按钮组件</a></li><li><a href="/pages/folder1/test5.html" class="sidebar-link">Flutter Container 组件、Text 组件</a></li><li><a href="/pages/folder1/test6.html" class="sidebar-link">Flutter Images图片组件</a></li><li><a href="/pages/folder1/test7.html" class="sidebar-link">Flutter ListView 基础列表组件、动态组件</a></li><li><a href="/pages/folder1/test8.html" class="sidebar-link">Flutter GridView 基础列表组件、动态组件</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="一、flutter-目录结构介绍"><a href="#一、flutter-目录结构介绍" class="header-anchor">#</a> 一、Flutter 目录结构介绍</h2> <p>我们着重需要注意以下几个文件夹，其他的暂时不用理会</p> <table><thead><tr><th>文件夹</th> <th style="text-align:left;">作用</th></tr></thead> <tbody><tr><td>android</td> <td style="text-align:left;">android平台相关代码</td></tr> <tr><td>ios</td> <td style="text-align:left;">ios平台相关代码</td></tr> <tr><td>lib</td> <td style="text-align:left;">flutter相关代码，我们主要编写的代码就在这个文件夹</td></tr> <tr><td>test</td> <td style="text-align:left;">用于存放测试代码</td></tr> <tr><td>pubspec.yaml</td> <td style="text-align:left;">配置文件，一般存放一些第三方库的依赖</td></tr></tbody></table> <h2 id="二、flutter-入口文件、入口方法"><a href="#二、flutter-入口文件、入口方法" class="header-anchor">#</a> 二、Flutter 入口文件、入口方法</h2> <p>每一个Flutter 项目的<code>lib</code>目录里面都有一个<code>main.dart</code>这个文件就是fliutter的入口文件</p> <p>main.dart里面的</p> <div class="language-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">MyApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">//也可以简写</span>
+<span class="token keyword">void</span> <span class="token function">mian</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">MyApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><blockquote><p>其中的main方法是dart的入口方法。runApp方法是flutter的入口方法。
+MyApp是自定义的一个组件</p></blockquote> <h2 id="三、flutter第一个demo-center组件的使用"><a href="#三、flutter第一个demo-center组件的使用" class="header-anchor">#</a> 三、Flutter第一个Demo Center组件的使用</h2> <div class="language-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+<span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">Center</span><span class="token punctuation">(</span>
+		child<span class="token punctuation">:</span><span class="token function">Text</span><span class="token punctuation">(</span>
+		<span class="token string">&quot;我是一个文本内容&quot;</span><span class="token punctuation">,</span>
+		textDirection<span class="token punctuation">:</span>TextDirection<span class="token punctuation">.</span>ltr<span class="token punctuation">,</span>
+		<span class="token punctuation">)</span><span class="token punctuation">,</span>
+	<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h2 id="四、flutter把内容单独抽离成一个组件"><a href="#四、flutter把内容单独抽离成一个组件" class="header-anchor">#</a> 四、Flutter把内容单独抽离成一个组件</h2> <blockquote><p>在Flutter中自定义组件其实就是一个类，这个类需要继承<code>StatelessWidget</code>/<code>StatefulWidget</code> <strong>StatelessWidget</strong> 是无状态组件，状态不可变的widget
+<strong>StatefulWidget</strong>  是有状态组件，持有的状态可能在widget生命周期改变</p></blockquote> <div class="language-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+<span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">MyApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyApp</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span><span class="token punctuation">{</span>
+	<span class="token metadata symbol">@override</span>
+	Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span><span class="token punctuation">{</span>
+		<span class="token keyword">return</span> Center<span class="token punctuation">{</span>
+			child<span class="token punctuation">:</span><span class="token function">Text</span><span class="token punctuation">(</span>
+			<span class="token string">&quot;我是一个文本内容&quot;</span><span class="token punctuation">,</span>
+			textDirection<span class="token punctuation">:</span>TextDirection<span class="token punctuation">.</span>ltr<span class="token punctuation">,</span>
+			<span class="token punctuation">)</span><span class="token punctuation">,</span>
+		<span class="token punctuation">}</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h2 id="五、给text组件增加一些装饰"><a href="#五、给text组件增加一些装饰" class="header-anchor">#</a> 五、给Text组件增加一些装饰</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>import 'package:flutter/material.dart';
+void main(){
+	runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget{
+	@override
+	Widget build(BuildContext context){
+		return Center{
+			child:Text(
+			&quot;我是一个文本内容&quot;,
+			textDirection:TextDirection.ltr,
+			style:TextStyle(
+				fontSize:40.0,
+				fontWeight:FontWeight.bold,
+				color:Colors.red,
+			)
+			),
+		};
+	},
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><h2 id="六、使用materialapp-和-scaffold-两个组件装饰app"><a href="#六、使用materialapp-和-scaffold-两个组件装饰app" class="header-anchor">#</a> 六、使用MaterialApp 和 Scaffold 两个组件装饰App</h2> <h3 id="_1、materialapp"><a href="#_1、materialapp" class="header-anchor">#</a> 1、MaterialApp</h3> <p><code>MaterialApp</code> 是一个方便的Widget,它封装了应用程序实现Material Design所需的一些Widget。一般作为顶层widget使用。</p> <p><strong>常用的属性</strong></p> <ul><li>home(主页)</li> <li>title(标题)</li> <li>color(颜色)</li> <li>theme(主题)</li> <li>routes(路由)</li></ul> <h3 id="_2、scaffold"><a href="#_2、scaffold" class="header-anchor">#</a> 2、Scaffold</h3> <p><code>Scaffold</code>是Material Design 布局结构基本实现。此类提供了用于显示 <code>drawer</code>、<code>snackbar</code>和底部 <code>sheet</code>的API。</p> <p><strong>Scaffold 有下面几个主要属性</strong></p> <ul><li>appBar 显示在界面顶部的一个AppBar</li> <li>body  当前界面所显示的主要内容 Widget</li> <li>drawer 抽屉菜单空间。</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>import 'package:flutter/material.dart';
+void main(){
+	runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget{
+	@override
+	Widget build(BuildContext context){
+		return MaterialApp(
+			title:'我是一个标题',
+			home:Scaffold(
+				appBar:AppBar(
+					title:Text('首页'),
+					elevation:0.0, //设置appBar阴影 默认值为4.0
+				),
+				body:MyHome(),
+				theme:ThmemeData( //设置主题颜色
+					primarySwatch:Colors.yellow
+				),
+			),
+		);
+	},
+}
+class MyHome extends StatelessWidget{
+	@override
+	Widget build(BuildContext context) {
+		return Center(
+			child:Text(
+			&quot;我是Dart 一个文本内容&quot;,
+			textDirection:TextDirection.ltr,
+			style:TextStyle(
+				fontSize:40.0,
+				fontWeight:FontWeight.bold,
+				color:Colors.red,
+			)
+		);
+	}
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">lastUpdate:</span> <span class="time">12/6/2019, 10:47:42 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/pages/folder1/test2.html" class="prev">Flutter开发环境搭建Windows版</a></span> <span class="next"><a href="/pages/folder1/test4.html">Flutter中的按钮组件及自定义按钮组件</a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.931699e2.js" defer></script><script src="/assets/js/2.980b837c.js" defer></script><script src="/assets/js/10.49ba6655.js" defer></script>
+  </body>
+</html>
